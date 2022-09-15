@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "full-icu": "^1.5.0",
+    "i18next": "^21.9.1",
+    "i18next-fs-backend": "^1.1.5",
+    "i18next-http-middleware": "^3.2.1"
+  },
+
+  "scripts": {
+    "start": "node --icu-data-dir=node_modules/full-icu script.js",
+    "test": "echo \"Error: no test epecified\"&& exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
